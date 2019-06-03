@@ -24,8 +24,8 @@ public class SimpleFactory {
 //        banana.get();
 
         try {
-            Fruit apple = FruitFactory.getFruit("apple");
-            Fruit banana = FruitFactory.getFruit("banana");
+            Fruit apple = FruitFactory.getFruit("com.mc.Apple");
+            Fruit banana = FruitFactory.getFruit("com.mc.Banana");
             apple.get();
             banana.get();
         } catch (Exception e) {
